@@ -1,0 +1,13 @@
+[package]
+name = "mdbook-addall"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+glob = "0.3.1"
+mdbook = { version = "0.4.34", default-features = false }
+mdbook-preprocessor-boilerplate = "0.1.2"
+walkdir = "2.4.0"
